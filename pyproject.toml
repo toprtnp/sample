@@ -1,5 +1,9 @@
 [build-system]
-# These are the assumed default build requirements from pip:
-# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=40.8.0", "wheel"]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    tensorflow-gpu==2.2.0
+    tensorflow-addons==0.9.1
+    scikit-learn==0.24.1
+]
 build-backend = "setuptools.build_meta"
